@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+vendor
+assets/node_modules
+assets/node_modules/

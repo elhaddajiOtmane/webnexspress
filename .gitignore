@@ -1,0 +1,57 @@
+# Ignore core WordPress files and directories
+/wp-admin/
+/wp-includes/
+!wp-includes/user/
+
+# Ignore default themes
+/wp-content/themes/twenty*/
+
+# Ignore core files
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Ignore default plugins
+/wp-content/plugins/hello.php
+
+# Ignore sensitive files
+wp-config.php
+.htaccess
+
+# Ignore specific plugins (example)
+#/wp-content/plugins/some-plugin/
+
+# Ignore node modules
+/node_modules/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore cache and logs
+*.log
+/wp-content/debug.log
+/wp-content/advanced-cache.php
+/wp-content/upgrade/*
+/wp-content/cache/*
+/wp-content/backups/*
+
+# Ignore specific user uploads or any large files
+/wp-content/uploads/
+
+# Optional: Ignore your specific theme or child theme files
+# /wp-content/themes/your-theme/
+# /wp-content/themes/your-child-theme/
